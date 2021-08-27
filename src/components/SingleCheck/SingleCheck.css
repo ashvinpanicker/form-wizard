@@ -1,0 +1,31 @@
+.SingleCheck {
+  padding: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.SingleCheck.disabled {
+  opacity: 0.4;
+  z-index: -1;
+  position: relative;
+}
+
+.SingleCheck.disabled > .btn-group > .Button {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.btn-group button:is(:last-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group button:is(:first-child) {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.SingleCheck.active {
+  background-color: var(--highlight-color);
+}

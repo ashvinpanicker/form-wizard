@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+
+  --primary-color: #004e5f;
+  --highlight-color: #def7f7;
+}
+
+p {
+  margin-block-start: 0.4em !important;
+  margin-block-end: 0.4em !important;
+}
